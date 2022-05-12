@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    color:#f3f3f3;
+    background-color: #DEDEDE;
+    width: 480px;
+    border-bottom: 1px solid gray;
+}
+
+.homebutton{
+    margin-top: 10px;
+    font-size: 32px;
+    color: black;
+    margin-right: 180px;
+    margin-left: 10px;
+}
+
+.header img{
+    margin-top: 5px;
+}
+
