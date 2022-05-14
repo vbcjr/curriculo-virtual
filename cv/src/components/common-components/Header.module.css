@@ -4,8 +4,10 @@
     height: 90px;
     color:#f3f3f3;
     background-color: #DEDEDE;
-    width: 480px;
+    width: 481px;
     border-bottom: 1px solid gray;
+    margin-left: -241px;
+    position:fixed;
 }
 
 .homebutton{

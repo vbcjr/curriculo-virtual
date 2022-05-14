@@ -5,6 +5,7 @@
     width: 480px;
     height: 1130px;
     background-color: #fff;
+    margin-top: 90px;
     
 }
 
@@ -15,6 +16,27 @@
     width: 480px;
     height: 850px;
     background-color: #fff;
+    margin-top: 90px;
+}
+
+.main3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    height: 680px;
+    background-color: #fff;
+    margin-top: 90px;
+}
+
+.main4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    height: 1340px;
+    background-color: #fff;
+    margin-top: 90px;
 }
 
 
@@ -46,7 +68,7 @@ input{
     padding-left: 8px;
 }
 
-.descricao, .descricao2{
+.descricao, .descricao2, .descricao3{
     height: 200px;
     display:grid;
 }
@@ -190,4 +212,116 @@ img{
 
 .botoes{
     display: flex;
+}
+
+.perfilfinal{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.perfilfinal img{
+    margin-right: 32px;
+}
+
+.textperfilfinal{
+    display:block;
+}
+
+.textperfilfinal p{
+    margin-top: 8px;
+}
+
+.contatofinal{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.textcontatofinal{
+    width: 224px;
+    margin-left: 32px;
+}
+
+.textcontatofinal p{
+    margin-top: 8px;
+}
+
+.enderecocontatofinal{
+    width: 224px;
+    margin-right: 32px;
+    text-align: justify;
+}
+
+.enderecocontatofinal h3{
+    margin-bottom: 8px;
+}
+
+h3{
+    color: #6353B3;
+}
+
+.objetivofinal{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+
+.textobjetivofinal{
+    height: 48px;
+    width: 424px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.formacaofinal {
+    margin-top: 32px;
+    width: 424px;
+    display: block;
+    justify-content: start;
+}
+
+.formacaofinal p, h3, .experienciafinal p, h3, .hobbiesfinal p, h3{
+    margin-bottom: 8px;
+}
+
+hr {
+    margin-top: 32px;
+    color: #999;
+    size: 2px;
+}
+
+.experienciafinal {
+    margin-top: 32px;
+    width: 424px;
+    display: block;
+    justify-content: start;
+}
+
+.hobbiesfinal{
+    margin-top: 32px;
+    width: 424px;
+    display: block;
+    justify-content: start;
+}
+
+.buttonfinal{
+    width: 424px;
+    height: 50px;
+    background-color: #5AB280;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 32px;
+    border-radius: 4px;
 }
